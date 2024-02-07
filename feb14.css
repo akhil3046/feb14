@@ -14,12 +14,20 @@ body {
   background-position: 50% 50%;
 }
 
+.fscreen {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
 .envelope {
   content: url(https://assets.codepen.io/4927073/Envelope3.png);
-  width: 430px;
+  width: 350px;
   position: absolute;
   left: 18%;
-  top: 3%;
+  /* top: 3%; */
   filter: drop-shadow(1.5px 0.75px 1.75px #4d4d4d);
 }
 
@@ -32,7 +40,8 @@ body {
     3px 0px 3px -2px rgba(0, 0, 0, 0.3);
   background-color: #fffffa;
       transform: scale(1.05);
-  left: 12px;
+  /* left: 12px; */
+  
 }
 
 .front {
